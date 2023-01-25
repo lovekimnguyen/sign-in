@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="background">
+        <video playsinline autoplay muted loop id="video">
+            <source src="https://res.cloudinary.com/dkdg4o9og/video/upload/v1674576048/Lively_wallpaper_1_uklmr6.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="conterner">
+    <div class="sign-in">
+        <div class="title">
+            <h1> Classy Login Form </h1>
+        </div>
+        <div class="input">
+            <form action="" class="form">
+                <div class="user-name">
+                    <img height="30px" id="icon__user" src="https://banner2.cleanpng.com/20180402/ehq/kisspng-computer-icons-symbol-login-register-button-5ac21706854256.2899999815226693185458.jpg">
+                   <input class="label2" placeholder="Username" tpye="text" id="name">
+                </div>
+                <div class="pass-wword">
+                    <img height="33px" id="icon__user" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL71sMcyZFnSr3GhJczZ7jq91jKJZbMJs6Cw&usqp=CAU">
+                    <input class="label2" placeholder="Password" type="password" id="password">
+                </div>
+            </form>
+        </div>
+        <div class="forgot">
+            <div class="remember">
+                <div><input id="remem" type="checkbox"></div>
+                <div><button id="forgot___me">Remember me</button></div>
+            </div>
+            <div class="forgot__me">
+                <button onclick="forgot()" id="forgot_me">Forgot password ?</button>
+            </div>
+        </div>
+        <div class="enter">
+            <button onclick="log()" id="login" type="button">Login</button>
+        </div>
+        <div class="or">
+            <button id="orr" type="button"> or </button>
+        </div>
+        <div class="facebook__google">
+            <div class="icon">
+                <img title="Tiếp tục với Facebook" height="50px" width="50px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEU6VZ////82Up4zUJ1UbKx4ibswTpyMmsQ5V6EtTJupss8nSJnN0+WVosgqSpo4U56eqcyDksDj5vBwgbb3+PxFXqNabqt9jb3S2OhidbC9xdy3v9l0hLjZ3etLY6bq7fTEyt4dQpdJYqekrs2uttK97JEgAAADFUlEQVR4nO3c2XLiMBBAUUZmM3IsFsNgSIAk/P83TsLzjCNbI3c3de9rqlw+BV7VZDIhIiIiIiIiIiIiIiIiIlJeCM4VxbzsrJDey8G50s/3h91ss3jp7LdJYii8262rbfPr545eem/753y9qWJwjypzwqJuT7E6i0JX7459fOaEvn3r5zMmLPy5r8+W0L9Gn15MCkO9GuAzJHSh9xFoS1hcrsOAVoTzdsghaEhYTAcDbQjdfjjQhDAshx6DRoShrhKAFoR+nQI0ICzaJKABYZlyEFoQ1p9pQPVCd0m4UJgQ+lsiULvQXVKB2oW+1ysZg8KwTAYqF5ZpF3sDQr99cqFLvJ3RL0y+2usXDnw1Y0YYUh58TQiL3X8Aql57Kvschs3xdF/9pftC8fphj3vSalZ6X5tbA/axJ5rtzhdBem+HVEeeaKq55s+po1DHAW/vJj+/yfdifdxX1OYX9LuwjxIejH5Fv3LTGOBJ8eXup+KEH056P4cXJby+S+9mQlHCUy29mwlFCddz6d1MKEq4sXsmjRTOEGoOIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQR27+78qYucRX37GFR7Jrb65ddBQz1Hbv2sCjpSixvEcgEitlhcN+cNenRnZxagThm+wK6ghC4TXiEYSr8tmFwstvIwhb2XX+EYR72St+fmEj6htDuBW+a8svPArPauQXnp9e+CI8jZJfKP38mF8ofDnML2wuwsOn2YVX6ena7MKt9PRpduHt6YUr6eHM7MKF9HBmduGr9OvU7MKp9BR4bmEjDcwulJ9zzy2U/+1hbqH0s1N+4afsq8QRhPKT/LmFB+kb7+xC6Tua7ELhdacRhOLPTtmFCv7ZQOY14LP4xWISlh2FqFkM17UF8VPpF7Hjb3HTJl2nSwXAzp5jnqYrhAj1hxCh/hAi1B9ChPpDiFB/CBHqDyFC/SFEqD+ECPWHEKH+ECLUH0KE+kOIUH8IEeoPIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQfwgR6g8hQv0hRKg/hAj1hxCh/hAi1B9ChD36A+1ASVvVoq0WAAAAAElFTkSuQmCC">
+            </div>
+            <div class="icon">
+                <img title="Tiếp tục với Google" height="50px" width="50px" src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png">
+            </div>
+            <div class="icon">
+                <img title="Tiếp tục với Twitter" height="50px" width="50px" src="https://cdn-icons-png.flaticon.com/512/124/124021.png">
+            </div>
+            <div class="icon">
+                <img title="Tiếp tục với Telegram" height="50px" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png">
+            </div>
+        </div>
+        <div class="none"></div>
+        <div class="content__end">
+            <p>Copyright belong to © Ha Van Nguyen</p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
