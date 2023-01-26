@@ -36,6 +36,27 @@ h1 {
     font-family: "Quicksand", sans-serif;
     text-align: center;
 }
+@media (max-width : 1100px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+@media (max-width : 900px) {
+    h1 {
+        font-size: 30px;
+    }
+    .forgot_me {
+        font-size: 10px;
+    }
+}
+@media (max-width : 700px) {
+    h1 {
+        font-size: 20px;
+    }
+    .forgot_me {
+        font-size: 50px;
+    }
+}
 .input {
     overflow: hidden;
 }
@@ -52,7 +73,7 @@ input {
 }
 #icon__user {
     position: absolute;
-    left: 450px;
+    right: 0;
 }
 .user-name ,
 .pass-wword {
@@ -72,20 +93,15 @@ input {
     display: flex;
 }
 #remem {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
-#forgot_me {
+.forgot_me {
     background: none;
     border: none;
     color: white;
     font-size: 20px;
-}
-#forgot___me {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 20px;
+    outline: none;
 }
 p {
     padding-left: 10px;
@@ -101,6 +117,7 @@ p {
     background-color: rgb(212, 37, 37);
     color: white;
     border: none;
+    outline: none;
 }
 .or {
     padding: 20px;
@@ -120,9 +137,7 @@ p {
 }
 .facebook__google {
     display: flex;
-}
-.icon {
-    padding-left: 55px;
+    justify-content: space-around;
 }
 .content__end {
     display: flex;
